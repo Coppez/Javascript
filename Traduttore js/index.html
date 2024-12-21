@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traduttore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: grey;
+        }
+        #p_risultato {
+            font-size: 24px;
+            padding: 4%;
+            margin-bottom: 4%;
+        }
+        #p_lingue {
+            font-size: 24px;
+            padding: 10px;
+            margin-bottom: -6px;
+            margin-top: -20px;
+        }
+        div {
+            margin: 10% 30%;
+            box-sizing: border-box;
+            background-color: rgb(97, 203, 214);
+            border-radius: 10px;
+            padding: 5% 5% 8% 5%;
+        }
+        
+        #bottone_inverti {
+            padding: 0.8%;
+            background-color: rgb(251, 251, 251);
+            margin-bottom: 5%;
+        }
+        h2{
+            text-align: left;
+            margin-top: -10%;
+            margin-left: -10%;
+            margin-bottom: 10%;
+            padding: 0px;
+        }
+
+        #bottone {
+            padding: 1%;
+        }
+
+        #daTradurre {
+            padding: 1%;
+        }
+
+    </style>
+</head>
+<body>  
+    <div>
+        <h2>Traduttore</h2>
+        <p id="p_lingue">INGLESE ➡ ITALIANO</p>
+        <button id="bottone_inverti">Inverti</button>
+        <br>
+        <input type="text" id="daTradurre" placeholder="Testo da tradurre" />
+        <button id="bottone">Traduci</button>
+        <p id="p_risultato">Traduzione: </p>
+        <br>
+        <span id="risultato"></span>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
